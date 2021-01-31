@@ -102,6 +102,7 @@ export default function Home() {
     }
   }
 
+  
   return(
     <Main>
       {vitoria === false ?
