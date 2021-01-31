@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
       <meta property="og:url" content="https://disco-de-hanoi.vercel.app/index" />
       <meta property="og:title" content="Sol Importal" />
       <meta property="og:description" content="Desative o Sol Imortal para tentar salvar Ravnica" />
-      <meta property="og:image" content='/disco4.png' />
+      <meta property="og:image" content='../public/disco4.png' />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://disco-de-hanoi.vercel.app/index" />
