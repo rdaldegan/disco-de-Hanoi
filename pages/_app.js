@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 const GlobalStyle = createGlobalStyle`
   body {
+    background-color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,9 +11,6 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
 }
 
 export default function App({ Component, pageProps }) {

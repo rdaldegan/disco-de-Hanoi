@@ -58,7 +58,7 @@ export default function Home() {
       console.log(selec0,selec1,selec2,selec3)
     }
     else if(disco == 1){
-      setSelec0([2])
+      setSelec0([0])
       setSelec1([2])
       setSelec2([0])
       setSelec3([0])
@@ -66,7 +66,7 @@ export default function Home() {
     }
     else if(disco == 2){
       setSelec0([0])
-      setSelec1([2])
+      setSelec1([0])
       setSelec2([2])
       setSelec3([0])
       console.log(selec0,selec1,selec2,selec3)
@@ -74,7 +74,7 @@ export default function Home() {
     else if(disco == 3){
       setSelec0([0])
       setSelec1([0])
-      setSelec2([2])
+      setSelec2([0])
       setSelec3([2])
       console.log(selec0,selec1,selec2,selec3)
     }
