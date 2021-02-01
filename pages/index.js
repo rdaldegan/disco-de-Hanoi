@@ -132,11 +132,17 @@ export default function Home() {
       giraDisco(selecDisk[0], direcao)
     }
     if(discos[0] == discos[1] && discos[0] == discos[2] && discos[0] == discos[3]){
+      setSelec0([0])
+      setSelec1([0])
+      setSelec2([0])
+      setSelec3([0])
+      setDiscos([0, 0, 0, 0])
+
       setTimeout(()=>{
         let vit = vitoria
       vit = true
       setVitoria(vit)
-      }, 1000)
+      }, 3000)
       
     }
   }
